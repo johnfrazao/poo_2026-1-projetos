@@ -1,1 +1,2 @@
 # poo_2026-1-projetos
+Este repositório contém atividades desenvolvidas em Java com o objetivo de praticar e aprimorar conhecimentos em programação. Os exercícios abordam conceitos fundamentais da linguagem, como lógica, estruturas de controle e orientação a objetos.

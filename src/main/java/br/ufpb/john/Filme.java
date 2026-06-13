@@ -1,8 +1,9 @@
 package br.ufpb.john;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Filme {
+public class Filme implements Serializable {
     private String nome;
     private String genero;
     private int ano;

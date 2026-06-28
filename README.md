@@ -1,2 +1,24 @@
-# poo_2026-1-projetos
-Este repositório contém atividades desenvolvidas em Java com o objetivo de praticar e aprimorar conhecimentos em programação. Os exercícios abordam conceitos fundamentais da linguagem, como lógica, estruturas de controle e orientação a objetos.
+# Catálogo de Filmes
+
+## Descrição
+
+Sistema desenvolvido em Java para gerenciamento de filmes.
+
+O sistema permite:
+
+- Cadastrar filmes;
+- Pesquisar filmes por gênero;
+- Remover filmes;
+- Salvar os dados em arquivo;
+- Recuperar os dados previamente salvos.
+
+## Tecnologias
+
+- Java 11
+- Swing (JFrame)
+- Serialização de Objetos
+- JUnit
+
+## Autor
+
+John

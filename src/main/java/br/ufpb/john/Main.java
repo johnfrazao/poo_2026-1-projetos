@@ -64,10 +64,10 @@ public class Main {
                     String nome = leitor.nextLine();
 
                     sistemaFilmes.removerFilme(nome);
-
+                    sistemaFilmes.salvarDados();
                     System.out.println("Filme removido com sucesso.");
 
-                } catch (FilmeInexistenteException e) {
+                } catch (FilmeInexistenteException | IOException e) {
                     System.out.println(e.getMessage());
                 }
             }else if (opcao == 0) {

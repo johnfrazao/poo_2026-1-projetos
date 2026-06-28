@@ -2,18 +2,34 @@ package br.ufpb.john;
 
 import java.io.Serializable;
 import java.util.Objects;
-
+/**
+ * Representa um filme cadastrado no sistema.
+ *
+ * Cada filme possui nome, gênero e ano de lançamento.
+ *
+ * @author John
+ */
 public class Filme implements Serializable {
     private String nome;
     private String genero;
     private int ano;
 
+    /**
+     * Cria um filme com os dados informados.
+     *
+     * @param nome nome do filme.
+     * @param genero gênero do filme.
+     * @param ano ano de lançamento.
+     */
     public Filme(String nome, String genero, int ano) {
         this.nome = nome;
         this.genero = genero;
         this.ano = ano;
     }
 
+    /**
+     * Cria um filme vazio.
+     */
     public Filme() {
         this("", "", 0);
     }
@@ -43,7 +59,6 @@ public class Filme implements Serializable {
     }
 
     public String toString() {
-        System.out.println("__________________________");
         return "Filme: " + this.nome + "\n" +
                 "Gênero: " + this.genero + "\n" +
                 "Ano: " + this.ano;

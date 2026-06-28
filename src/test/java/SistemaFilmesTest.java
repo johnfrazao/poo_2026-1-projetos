@@ -7,7 +7,7 @@ import java.util.Collection;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SistemaFIlmesTest {
+public class SistemaFilmesTest {
     private SistemaFilmes sistema;
 
     @BeforeEach
